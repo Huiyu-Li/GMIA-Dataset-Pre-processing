@@ -24,14 +24,14 @@ Step1: Boundary crop and insert the new image size (optinal)
 python crop_black_boundary.py
 ```
 
-Step2: Resize the image to required input size of the U-net
-Step3: Get the segmentation masks
-Step4: Zoom in the segmentation masks
-Step5: Get a squared bbox 
-    Get the center point C of the lung mask bbox
-    Get the shortest distance from C to boundaries
-Step6: Crop the image with the squared bbox
-Step7 Resize the image into a uniform size (e.g. 512*512)
+Step2: Resize the image to required input size of the U-net<br>
+Step3: Get the segmentation masks<br>
+Step4: Zoom in the segmentation masks<br>
+Step5: Get a squared bbox <br>
+    Get the center point C of the lung mask bbox<br>
+    Get the shortest distance from C to boundaries<br>
+Step6: Crop the image with the squared bbox<br>
+Step7 Resize the image into a uniform size (e.g. 512*512)<br>
 
 ```.bash
 python python3 pre_processing.py
