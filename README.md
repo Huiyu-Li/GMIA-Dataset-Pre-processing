@@ -1,4 +1,4 @@
-## GMIA-Dataset Pre-processing &mdash; Official PyTorch implementation
+## GMIA-MIMIC-CXR-JPG Dataset Pre-processing &mdash; Official PyTorch implementation
 
 ![Teaser image](./docs/image_pre-processing.png)
 
