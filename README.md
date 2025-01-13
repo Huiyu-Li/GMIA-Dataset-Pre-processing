@@ -1,10 +1,9 @@
-## GMIA-Dataset Pre-processing &mdash; Official PyTorch implementation
+## GMIA-MIMIC-CXR-JPG Dataset Pre-processing &mdash; Official PyTorch implementation
 
 ![Teaser image](./docs/image_pre-processing.png)
 
-**Data Exfiltration and Anonymization of Medical Images based on Generative Models**<br>
+[**Data Exfiltration and Anonymization of Medical Images based on Generative Models** (Chapter3-4, p57-59)](https://inria.hal.science/tel-04875160)<br>
 Huiyu Li<br>
-https://inria.hal.science/tel-04875160<br> (Chapter3, p57-59)
 
 ## Motivation
 The original images from the source dataset (e.g. MIMIC-CXR-JPG dataset) vary in size, making them unsuitable for neural network training. To standardize the raw images and ensure compatibility, we developed a preprocessing pipeline that resizes all images to a uniform size.
